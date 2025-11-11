@@ -867,3 +867,24 @@
 .footerButton:active{
     background: #4a7500;
 }
+
+@media(max-width: 425px) {
+    .girl-2 {
+        position: absolute;
+        left: -100px;
+        z-index: 2;
+        width: 328px;
+        height: 587px;
+    }
+}
+
+@media(max-width: 390px) {
+    .girl-2 {
+        position: absolute;
+        left: -110px;
+        z-index: 2;
+        width: 278px;
+        height: 507px;
+        object-fit: contain;
+    }
+}
