@@ -83,7 +83,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    left: 70px !important;
+    right: 100px !important;
     left: auto;
 }
 
@@ -94,7 +94,7 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    right: 70px !important;
+    right: 0px !important;
     left: auto;
 }
 
@@ -107,8 +107,6 @@
 /* Точки */
 .slick-dots {
     display: flex !important;
-    justify-content: center;
-    bottom: -70px !important;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -116,6 +114,10 @@
     position: absolute;
     margin: 0 auto;
     z-index: 9;
+}
+
+.slick-dots li{
+    width: 10px !important;
 }
 
 .slick-dots li button:before {
@@ -174,5 +176,9 @@
 
     .slider{
         padding-bottom: 0px !important;
+    }
+
+    .slick-dots{
+        bottom: -15px !important;
     }
 }
