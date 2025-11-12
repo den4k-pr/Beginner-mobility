@@ -336,13 +336,10 @@
 .about {
     position: relative;
     z-index: 3;
-    padding: 0 10px;
 }
 
 
 .aboutContent {
-    background: linear-gradient(180deg, rgba(207, 255, 121, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-    border: 2px solid rgb(160, 160, 160);
     position: relative;
     min-height: 460px;
     display: flex;
@@ -353,6 +350,11 @@
     padding-bottom: 50px;
     border-radius: 16px;
     margin-top: 30px;
+}
+
+.gf{
+    width: 100%;
+    object-fit: contain;
 }
 
 .infoWr-title{
@@ -388,8 +390,8 @@
     width: 100%;
     position: absolute;
     z-index: 3;
-    top: 155px;
-    right: 20px;
+    top: 32%;
+    right: 30px;
     border-radius: 20px;
     width: 174px;
 }
@@ -417,6 +419,7 @@
     padding: 0 20px;
     width: 100%;
     gap: 10px;
+    top: -50px;
     position: relative;
     z-index: 4;
 }
